@@ -10,8 +10,8 @@ services:
     volumes:
       - .:/usr/src/app
       - ./public:/usr/src/app/public
-    depends_on:
-      - harvi_db
+    # depends_on:
+    #   - harvi_db
     networks:
       - app_network
 
